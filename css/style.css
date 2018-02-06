@@ -1,0 +1,96 @@
+body {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+#racetrack {
+	background: url("../images/road.jpeg");
+	height: 300px;
+	width: 100%;
+	border-right: dashed 10px white;
+	box-sizing: border-box;
+	margin: 40px 0;
+}
+
+.red_square {
+	width: 10%;
+	height: 20%;
+	border: 8px solid red;
+	background-color: red;
+}
+
+.blue_square {
+	width: 10%;
+	height: 20%;
+	margin-top: 2em;
+	border: 8px solid blue;
+	background-color: blue;	
+}
+
+.car {
+	display: block;
+	position: relative;
+}
+
+#car1 {
+	top: 5px;
+}
+
+#car2 {
+	top: 50px;
+}
+
+#raceInfo {
+	width: 80%;
+	margin: 40px auto 0;
+	background: #007889;
+	height: 200px;
+}
+
+#raceInfo h2 {
+	color: white;
+	text-transform: uppercase;
+	border-bottom: solid 1px white;
+	padding: 20px 0;
+}
+
+.raceInfo {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	width: 50%;
+	float: left;
+}
+
+.raceInfo span {
+	display: block;
+	font-weight: normal;
+	font-size: 18px;
+	color: white;
+}
+
+#raceInfo1 {
+	color: red;
+}
+
+#raceInfo2 {
+	color: cyan;
+}
+
+input[type="button"] {
+	background: #007889;
+	color: white;
+	padding: 10px 20px;
+	border: solid 1px #fff;
+	border-radius: 8px;
+}
+
+input#reset {
+	background: orange;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
